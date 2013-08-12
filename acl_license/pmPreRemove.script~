@@ -1,9 +1,0 @@
-#!/bin/sh
-SID=com.phxdevices.com.acl_license
-rm -f /media/internal/DCIM/remove_this.txt
-touch /media/internal/DCIM/create_this.txt
-
-rm -f /var/palm/ls2/services/pub/remove_this.txt
-touch /var/palm/ls2/services/pub/create_this.txt
-
-exit 0
