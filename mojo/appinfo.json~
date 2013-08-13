@@ -1,0 +1,9 @@
+{
+	"id": "com.phxdevices.acl-license",
+	"version": "1.0.0",
+	"vendor": "Phoenix Devices",
+	"type": "web",
+	"main": "index.html",
+	"title": "ACL License",
+	"icon": "icon.png"
+}
