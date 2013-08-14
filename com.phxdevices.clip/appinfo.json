@@ -1,0 +1,12 @@
+{
+	"id": "com.phxdevices.clip",
+	"version": "0.0.1",
+	"vendor": "Phoenix Devices",
+	"type": "web",
+	"main": "index.html",
+	"title": "ACL Clip",
+	"icon": "icon.png",
+    "requiredMemory": 5,
+	"uiRevision":2,
+	"plug-ins": true
+}
