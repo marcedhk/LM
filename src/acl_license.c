@@ -103,7 +103,7 @@ int acl_license(const char *key)
         if(key == NULL)
         {
             uint32_t trialDays = 0;
-            /*
+           	
             // Look in TurboActivate.h for what the error codes mean.
             print_ta_error(hr, "Not activated");
 
@@ -124,7 +124,7 @@ int acl_license(const char *key)
             }
             else
                 print_ta_error(hr, "Failed to UseTrial.");
-           */
+          
 
         } else {
             printf("Trying to activate key: %s\n", key);

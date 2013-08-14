@@ -40,8 +40,8 @@ ${PKG_DIR}/libTurboActivate.so: ${EXTRA_LINKDIR}/libTurboActivate.so
 acl_licenase/TurboActivate.dat: src/TurboActivate.dat
 	cp src/TurboActivate.dat ${PKG_DIR}
 
-${PKG_DIR}/${PLUGIN_NAME}: src/main.c src/${PLUGIN_NAME}.c src/TurboActivate.h acl_licenase/TurboActivate.dat
-	${CC} ${CCFLAGS} ${LDFLAGS} src/main.c src/${PLUGIN_NAME}.c -o ${PKG_DIR}/${PLUGIN_NAME} -L${EXTRA_LINKDIR} -lTurboActivate
+${PKG_DIR}/${PLUGIN_NAME}: src/${PLUGIN_NAME}.c src/acl_license.c src/TurboActivate.h acl_licenase/TurboActivate.dat
+	${CC} ${CCFLAGS} ${LDFLAGS} src/${PLUGIN_NAME}.c src/acl_license.c -o ${PKG_DIR}/${PLUGIN_NAME} -L${EXTRA_LINKDIR} -lTurboActivate
 
 com.phxdevices.clip_0.0.1_all.ipk: ${PKG_DIR}/appinfo.json binaries
 	palm-package ${PKG_DIR}
